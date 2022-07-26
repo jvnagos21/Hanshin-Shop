@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    text-align: center;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+}
+#jerseys-tshirts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#jerseys-tshirts div{
+    width: 207px;
+    height: 275px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    border-color: black 2px solid;
+    border-radius: 6px;
+    transition: 0.2s;
+    border: black 6px solid;
+}
+#jerseys-tshirts div:hover {
+    background-color: lightgrey;
+    color: black;
+    border: black 6px solid;
+    cursor: pointer;
+}
+#jerseys-tshirts img{
+    object-fit: cover;
+    width: 100%;
+    height: 15vw;
+    text-decoration: none;
+}
+#caps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#caps div{
+    width: 207px;
+    height: 275px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    border-color: black 2px solid;
+    border-radius: 6px;
+    transition: 0.2s;
+    border: black 6px solid;
+}
+#caps div:hover {
+    background-color: lightgrey;
+    color: black;
+    border: black 6px solid;
+    cursor: pointer;
+}
+#caps img{
+    object-fit: cover;
+    width: 100%;
+    height: 15vw;
+    text-decoration: none;
+}
+#acessories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#acessories div{
+    width: 207px;
+    height: 275px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    border-color: black 2px solid;
+    border-radius: 6px;
+    transition: 0.2s;
+    border: black 6px solid;
+}
+#acessories div:hover {
+    background-color: lightgray;
+    color: black;
+    border: black 6px solid;
+    cursor: pointer;
+}
+#acessories img{
+    object-fit: cover;
+    width: 100%;
+    height: 15vw;
+    text-decoration: none;
+}
