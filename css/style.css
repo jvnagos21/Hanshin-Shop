@@ -32,7 +32,7 @@ header {
     border: black 6px solid;
 }
 #jerseys-tshirts div:hover {
-    background-color: lightgrey;
+    background-color: yellow;
     color: black;
     border: black 6px solid;
     cursor: pointer;
@@ -62,7 +62,7 @@ header {
     border: black 6px solid;
 }
 #caps div:hover {
-    background-color: lightgrey;
+    background-color: yellow;
     color: black;
     border: black 6px solid;
     cursor: pointer;
@@ -92,7 +92,7 @@ header {
     border: black 6px solid;
 }
 #acessories div:hover {
-    background-color: lightgray;
+    background-color: yellow;
     color: black;
     border: black 6px solid;
     cursor: pointer;
